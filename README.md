@@ -1,23 +1,30 @@
-# SQL Compilere
-- **The Goal of this project is user can connect with database and run query and see output in a nice manner.**
+# SQL Compiler
 
-# Usage
-- **First you create a virtual environment**
-python```
+- **The goal of this project is to allow users to connect to a database, run queries, and view the output in a user-friendly manner.**
+
+## Usage
+
+- **First, create a virtual environment:**
+
+```bash
 python -m venv venv
 ```
+- **Second, activate virtual environment:**
 
-- **Activate the environment***
-python```
+```bash
 .\venv\Scripts\activate
+
+```
+- **Third, Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+
 ```
 
-- **Install Dependencies**
-python```
-pip install -r .\requirenment.txt
-```
+- **Run App:**
 
-- **Run **
-python```
-streamlit run .\src\main.py
+```bash
+streamlit run src\main.py
+
 ```
