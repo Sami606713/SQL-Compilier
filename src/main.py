@@ -7,7 +7,7 @@ from utils import layout,connect_db,show_form,display_table
 
 # Set page Config
 st.set_page_config(
-    page_title="Data Preprocessing",
+    page_title="SQL Compilier",
     page_icon='Data',
     layout="wide",
     initial_sidebar_state="expanded",
